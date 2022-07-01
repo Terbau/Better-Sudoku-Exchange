@@ -4,7 +4,7 @@ A chrome extension that launches expert level sudoku games from sudoku.com in su
 # How to install to Chrome
 1. Clone this repository.
 2. Navigate to `chrome://extensions` and enable Developer Mode.
-3. Click `Load Unpacked` and select (select!!, dont enter) the `src` folder in your clone.
+3. Click `Load Unpacked` and select the `src` folder in your clone.
 4. Click `Select Folder`.
 
 # How to use the extension
