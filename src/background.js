@@ -1,11 +1,6 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
-    // chrome.tabs.executeScript(null, {
-    //     file: "onClickScript.js"
-    // });
-
+chrome.action.onClicked.addListener(function(tab) {
     fetch(
         'https://cors-anywhere.terbau.xyz/sudoku.com/api/level/expert', {
-            // mode: 'no-cors',
             headers: {
                 'x-requested-with': 'XMLHttpRequest'
             }
